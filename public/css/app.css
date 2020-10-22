@@ -9655,8 +9655,6 @@ header {
   background-size: cover;
   background-position: center;
   height: 90vh;
-  border-bottom: 20px solid;
-  border-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/bottom_decoration_img.png) 30 round;
 }
 
 header p {
@@ -9666,6 +9664,14 @@ header p {
 
 header .div_hover:hover {
   background-color: #C43640;
+}
+
+#bordure {
+  position: relative;
+  bottom: 1.5%;
+  height: 2%;
+  background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/bottom_decoration_img.png);
+  background-repeat: repeat;
 }
 
 .occasion {
