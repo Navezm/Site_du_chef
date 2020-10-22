@@ -9649,6 +9649,23 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+#story_menu {
+  background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/main_bg.jpg);
+  background-repeat: repeat;
+}
+
+#story_menu #div_story {
+  background-color: white;
+  border: solid 0.5px #c9c9c9;
+}
+
+.border_menu {
+  border-bottom: dotted 1px grey;
+  padding: 2% 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
