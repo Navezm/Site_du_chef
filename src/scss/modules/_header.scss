@@ -1,0 +1,15 @@
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    .div_hover:hover{
+        background-color: $red_chef;
+    }
+}
+
+#container_nav{
+    padding-left: 8%;
+    padding-right: 8%;
+}

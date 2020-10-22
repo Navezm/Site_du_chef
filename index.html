@@ -1,17 +1,72 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site du chef</title>
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
+
 <body>
-    
+    <header>
+        <!-- Navbar -->
+        <div class="container-fluid" id="container_nav">
+            <nav class="navbar navbar-expand-lg navbar-light pt-4">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse row" id="navbarNavAltMarkup">
+                    <!-- Nav gauche -->
+                    <div class="navbar-nav col-5 row d-flex justify-content-between border-top border-bottom border-white p-0 mt-4">
+                        <div class="col-3 div_hover py-2 px-3 text-center">
+                            <a class="nav-link active text-white" href="#">HOME</a>
+                        </div>
+                        <div class="col-3 div_hover py-2 px-3 text-center">
+                            <a class="nav-link text-white" href="#">ABOUT US</a>
+                        </div>
+                        <div class="col-3 div_hover py-2 px-3 text-center">
+                            <a class="nav-link text-white" href="#">MENU LIST</a>
+                        </div>
+                        <div class="col-3 div_hover py-2 px-3 text-center">
+                            <a class="nav-link text-white" href="#">TEAM</a>
+                        </div>
+                    </div>
+                    <!-- Nav gauche -->
+
+                    <!-- Image -->
+                    <div class="col-2 text-center">
+                        <img src="./public/img/logo.png" alt="">
+                    </div>
+                    <!-- Image -->
+
+                    <!-- Nav droite -->
+                    <div class="navbar-nav col-5 row d-flex justify-content-between border-top border-bottom border-white p-0 mt-4">
+                        <div class="col-3 div_hover py-2 px-3 text-center">
+                            <a class="nav-link active text-white" href="#">RESERVATION</a>
+                        </div>
+                        <div class="col-3 div_hover py-2 px-3 text-center">
+                            <a class="nav-link text-white" href="#">ABOUT US</a>
+                        </div>
+                        <div class="col-3 div_hover py-2 px-3 text-center">
+                            <a class="nav-link text-white" href="#">MENU LIST</a>
+                        </div>
+                        <div class="col-3 div_hover py-2 px-3 text-center">
+                            <a class="nav-link text-white" href="#">TEAM</a>
+                        </div>
+                    </div>
+                    <!-- Nav droite -->
+                </div>
+            </nav>                
+        </div>
+        <!-- Navbar -->
+    </header>
 
     <!-- Lien Bootstrap & jquery -->
-    <script  src="./node_modules/jquery/dist/jquery.js"></script>
-    <script  src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script  src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+
 </html>
