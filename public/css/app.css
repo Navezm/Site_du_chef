@@ -9655,15 +9655,46 @@ header {
   background-size: cover;
   background-position: center;
   height: 90vh;
+  border-bottom: 20px solid;
+  border-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/bottom_decoration_img.png) 30 round;
+}
+
+header p {
+  font-size: 2.7em;
+  font-style: italic;
 }
 
 header .div_hover:hover {
   background-color: #C43640;
 }
 
+.occasion {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.taste {
+  font-size: 2em;
+  color: #B1303B;
+}
+
+.makes {
+  font-size: 1.5em;
+}
+
 #container_nav {
   padding-left: 8%;
   padding-right: 8%;
+}
+
+.carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.bg_btn {
+  background-color: #B1303B;
 }
 
 /*!
