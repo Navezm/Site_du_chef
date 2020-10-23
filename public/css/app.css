@@ -9676,6 +9676,40 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 3% 5%;
 }
 
+#img_blog_div {
+  background-image: url(../img/blog_img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  border: 5px lightgrey solid;
+  border-radius: 15px;
+}
+
+.span_blog_card {
+  padding-top: 6%;
+  border-radius: 15px;
+  width: 80%;
+}
+
+#img_blog_div2 {
+  background-image: url(../img/blog_img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  border: 5px lightgrey solid;
+  border-radius: 15px;
+}
+
+#img_blog_div2 #span_blog {
+  margin-bottom: 80%;
+}
+
+.p_blog {
+  font-size: 1.5em;
+}
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
