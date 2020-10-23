@@ -9703,6 +9703,85 @@ header .div_hover:hover {
   background-color: #B1303B;
 }
 
+#story_menu {
+  background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/main_bg.jpg);
+  background-repeat: repeat;
+}
+
+#story_menu #div_story {
+  background-color: white;
+  border: solid 0.5px #c9c9c9;
+}
+
+#story_menu h2 {
+  background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/decoration_line.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#story_txt p {
+  line-height: 2;
+  width: 80%;
+}
+
+.border_menu {
+  border-bottom: dotted 1px grey;
+  padding: 1% 0;
+  margin-left: 1%;
+}
+
+.border_menu p {
+  line-height: 1.5;
+}
+
+.border_img {
+  border: 6px solid rgba(128, 128, 128, 0.3);
+  width: 100%;
+}
+
+.span_fond {
+  background-color: rgba(187, 187, 187, 0.501);
+  color: #B1303B;
+  font-size: 20px;
+}
+
+.taille_card {
+  width: 45%;
+}
+
+.i_menu {
+  font-size: 80px;
+}
+
+#click div a {
+  padding-right: 1%;
+  border-right: white 4px solid;
+}
+
+#click div a:focus {
+  padding-right: 1%;
+  border-right: #B1303B;
+  color: #B1303B;
+}
+
+#click div a:focus span:focus {
+  color: black;
+}
+
+.list-group .active {
+  background-color: transparent;
+  border-top: none;
+  color: #B1303B;
+}
+
+.list-group .active span {
+  color: black;
+}
+
+.span_menu {
+  font-size: 25px;
+}
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
