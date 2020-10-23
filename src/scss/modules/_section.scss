@@ -8,11 +8,83 @@
     }
 }
 
+#story_menu{
+    h2{
+        background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/decoration_line.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+}
+
+// Partie story
+#story_txt{
+    p{
+        line-height: 2;
+        width: 80%;
+    }
+}
+// Partie story
+
+// Partie menu
 .border_menu{
     border-bottom: dotted 1px grey;
-    padding: 2% 0;
-    // padding-right: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding: 1% 0;
+    margin-left: 1%;
+    p{
+        line-height: 1.5;
+    }
 }
+
+.border_img{
+    border: 6px solid rgba(128, 128, 128, 0.30);
+    width: 100%;
+}
+
+.span_fond{
+    background-color: rgba(187, 187, 187, 0.501);
+    color: rgb(204, 2, 2);
+    font-size: 20px;
+}
+
+.taille_card{
+    width: 45%;
+}
+
+.i_menu{
+    font-size: 80px;
+}
+
+#click{
+    // border-right: 1px solid grey;
+    div{
+        a{
+            padding-right: 1%;
+            border-right: white 4px solid;
+        }
+        a:focus{
+            padding-right: 1%;
+            border-right: red 4px solid;
+            color: red;
+            span:focus{
+                color: black;
+            }
+        }
+    }
+}
+
+.list-group .active{
+    background-color: transparent;
+    border-top: none;
+    color: red;
+    // border-right: red 4px solid;
+    span{
+        color: black;
+    }
+}
+
+.span_menu{
+    font-size: 25px;
+}
+// Partie menu
+
 // Section Story & Menu

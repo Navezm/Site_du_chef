@@ -9659,11 +9659,73 @@ a.text-dark:hover, a.text-dark:focus {
   border: solid 0.5px #c9c9c9;
 }
 
+#story_menu h2 {
+  background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/decoration_line.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#story_txt p {
+  line-height: 2;
+  width: 80%;
+}
+
 .border_menu {
   border-bottom: dotted 1px grey;
-  padding: 2% 0;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding: 1% 0;
+  margin-left: 1%;
+}
+
+.border_menu p {
+  line-height: 1.5;
+}
+
+.border_img {
+  border: 6px solid rgba(128, 128, 128, 0.3);
+  width: 100%;
+}
+
+.span_fond {
+  background-color: rgba(187, 187, 187, 0.501);
+  color: #cc0202;
+  font-size: 20px;
+}
+
+.taille_card {
+  width: 45%;
+}
+
+.i_menu {
+  font-size: 80px;
+}
+
+#click div a {
+  padding-right: 1%;
+  border-right: white 4px solid;
+}
+
+#click div a:focus {
+  padding-right: 1%;
+  border-right: red 4px solid;
+  color: red;
+}
+
+#click div a:focus span:focus {
+  color: black;
+}
+
+.list-group .active {
+  background-color: transparent;
+  border-top: none;
+  color: red;
+}
+
+.list-group .active span {
+  color: black;
+}
+
+.span_menu {
+  font-size: 25px;
 }
 
 /*!
