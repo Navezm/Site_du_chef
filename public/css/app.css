@@ -9649,6 +9649,28 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+body {
+  background-image: url(../img/main_bg.jpg);
+  background-repeat: repeat;
+}
+
+.li_contact {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.div_contact {
+  border-radius: 15px;
+}
+
+.list_contact {
+  padding-bottom: 0;
+}
+
+.p_contact {
+  margin: 0;
+}
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
