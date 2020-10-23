@@ -9650,7 +9650,30 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #section_book {
-  background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/main_bg.jpg);
+  background-image: url("../img/main_bg.jpg");
+}
+
+#div_border {
+  border: solid 0.5px #c9c9c9;
+}
+
+#form_book {
+  background-image: url(../img/book_table_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  width: 60%;
+}
+
+.div_form_w {
+  width: 70%;
+}
+
+.form_radius {
+  border-radius: 10px;
+  margin: 5% 0;
+  padding: 3% 5%;
 }
 
 /*!
