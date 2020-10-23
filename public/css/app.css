@@ -9830,6 +9830,7 @@ h2 {
   padding-top: 6%;
   border-radius: 15px;
   width: 80%;
+  background-color: #B1303B;
 }
 
 #img_blog_div2 {
@@ -9858,7 +9859,7 @@ h2 {
 }
 
 .p_testi {
-  color: darkred;
+  color: #B1303B;
 }
 
 .div_testi {
@@ -9881,6 +9882,10 @@ h2 {
 
 .list_contact {
   padding-bottom: 0;
+}
+
+.li_contact_2 {
+  background-color: #B1303B;
 }
 
 .p_contact {

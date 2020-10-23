@@ -133,6 +133,7 @@ h2{
     padding-top: 6%;
     border-radius: 15px;
     width: 80%;
+    background-color: $red_chef_txt
 }
 
 #img_blog_div2{
@@ -162,7 +163,7 @@ h2{
 }
 
 .p_testi{
-    color: darkred;
+    color: $red_chef_txt;
 }
 
 .div_testi{
@@ -187,6 +188,10 @@ h2{
 
 .list_contact{
     padding-bottom: 0;
+}
+
+.li_contact_2{
+    background-color: $red_chef_txt;
 }
 
 .p_contact{
