@@ -8,12 +8,11 @@
     }
 }
 
-#story_menu{
-    h2{
-        background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/decoration_line.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
+
+h2{
+    background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/decoration_line.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 // Partie story
@@ -63,7 +62,7 @@
         }
         a:focus{
             padding-right: 1%;
-            border-right: $red_chef_txt;
+            border-right: $red_chef_txt 4px solid;
             color: $red_chef_txt;
             span:focus{
                 color: black;
@@ -76,7 +75,7 @@
     background-color: transparent;
     border-top: none;
     color: $red_chef_txt;
-    // border-right: red 4px solid;
+    border-right: $red_chef_txt 4px solid;
     span{
         color: black;
     }
@@ -88,3 +87,9 @@
 // Partie menu
 
 // Section Story & Menu
+// Section Chef
+#section_chef{
+    background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/team_background.jpg);
+    color: white;
+}
+// Section Chef

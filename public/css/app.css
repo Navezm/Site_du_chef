@@ -9649,6 +9649,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.span_h2 {
+  color: #B1303B;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/banner1.jpg);
   background-repeat: no-repeat;
@@ -9713,7 +9717,7 @@ header .div_hover:hover {
   border: solid 0.5px #c9c9c9;
 }
 
-#story_menu h2 {
+h2 {
   background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/decoration_line.png);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -9760,7 +9764,7 @@ header .div_hover:hover {
 
 #click div a:focus {
   padding-right: 1%;
-  border-right: #B1303B;
+  border-right: #B1303B 4px solid;
   color: #B1303B;
 }
 
@@ -9772,6 +9776,7 @@ header .div_hover:hover {
   background-color: transparent;
   border-top: none;
   color: #B1303B;
+  border-right: #B1303B 4px solid;
 }
 
 .list-group .active span {
@@ -9780,6 +9785,11 @@ header .div_hover:hover {
 
 .span_menu {
   font-size: 25px;
+}
+
+#section_chef {
+  background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/team_background.jpg);
+  color: white;
 }
 
 /*!
