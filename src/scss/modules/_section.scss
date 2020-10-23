@@ -1,7 +1,5 @@
 // Section Story & Menu
 #story_menu{
-    background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/main_bg.jpg);
-    background-repeat: repeat;
     #div_story{
         background-color: white;
         border: solid 0.5px rgb(201, 201, 201);
@@ -87,9 +85,70 @@ h2{
 // Partie menu
 
 // Section Story & Menu
+
 // Section Chef
 #section_chef{
     background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/team_background.jpg);
     color: white;
 }
 // Section Chef
+
+// Section Book
+#div_border{
+    border: solid  0.5px  rgb(201, 201, 201);
+}
+
+#form_book{
+    background-image: url(../img/book_table_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 60%;
+}
+
+.div_form_w{
+    width: 70%;
+}
+
+.form_radius{
+    border-radius: 10px;
+    margin: 5% 0;
+    padding: 3% 5%;
+}
+// Section Book
+
+// Section Blog
+#img_blog_div{
+    background-image: url(../img/blog_img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    border: 5px lightgrey solid;
+    border-radius: 15px;
+}
+
+.span_blog_card{
+    padding-top: 6%;
+    border-radius: 15px;
+    width: 80%;
+}
+
+#img_blog_div2{
+    background-image: url(../img/blog_img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    border: 5px lightgrey solid;
+    border-radius: 15px;
+    #span_blog{
+        margin-bottom: 80%;
+    }
+}
+
+.p_blog{
+    font-size: 1.5em;
+}
+// Section Blog
