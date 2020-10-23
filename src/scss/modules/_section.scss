@@ -152,3 +152,25 @@ h2{
     font-size: 1.5em;
 }
 // Section Blog
+
+// Section Testimonial
+#section_testi{
+    background-image: url(../img/testimonials_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p_testi{
+    color: darkred;
+}
+
+.div_testi{
+    border: 1px white solid;
+    border-radius: 15px;
+}
+
+.img_testi{
+    border: 5px white solid;
+}
+// Section Testimonial
