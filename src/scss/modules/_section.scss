@@ -15,9 +15,6 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px){
-    #div_story{
-
-    }
 }
 // Partie story
 
@@ -53,13 +50,12 @@
 #click{
     div{
         a{
-            padding-right: 1%;
+            padding-right: 2%;
+            padding-left: 2%;
             border-right: white 4px solid;
         }
-        a:focus{
+        a:active{
             padding-right: 1%;
-            border-right: $red_chef_txt 4px solid;
-            color: $red_chef_txt;
             span:focus{
                 color: black;
             }
@@ -67,11 +63,15 @@
     }
 }
 
+.list-group-item.active{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
 .list-group .active{
     background-color: transparent;
     border-top: none;
     color: $red_chef_txt;
-    border-right: $red_chef_txt 4px solid;
+    border-right: $red_chef_txt 4px solid !important;
     span{
         color: black;
     }
@@ -79,6 +79,10 @@
 
 .span_menu{
     font-size: 25px;
+}
+
+.div_menu{
+    border-left: 1px solid rgba(73, 73, 73, 0.125);
 }
 // Partie menu
 

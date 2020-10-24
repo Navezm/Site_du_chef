@@ -9792,25 +9792,28 @@ header .div_hover:hover {
 }
 
 #click div a {
-  padding-right: 1%;
+  padding-right: 2%;
+  padding-left: 2%;
   border-right: white 4px solid;
 }
 
-#click div a:focus {
+#click div a:active {
   padding-right: 1%;
-  border-right: #B1303B 4px solid;
-  color: #B1303B;
 }
 
-#click div a:focus span:focus {
+#click div a:active span:focus {
   color: black;
+}
+
+.list-group-item.active {
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .list-group .active {
   background-color: transparent;
   border-top: none;
   color: #B1303B;
-  border-right: #B1303B 4px solid;
+  border-right: #B1303B 4px solid !important;
 }
 
 .list-group .active span {
@@ -9819,6 +9822,10 @@ header .div_hover:hover {
 
 .span_menu {
   font-size: 25px;
+}
+
+.div_menu {
+  border-left: 1px solid rgba(73, 73, 73, 0.125);
 }
 
 #section_chef {
