@@ -9654,11 +9654,21 @@ a.text-dark:hover, a.text-dark:focus {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+
+#bordure_footer {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 2vh;
+  background-image: url(../img/footer_bottom_decoration_img.png);
+  background-repeat: repeat;
+  z-index: 1000;
 }
 
 #ligne_rouge {
-  width: 100vw;
-  height: 15vh;
+  height: 10vh;
   background-color: #B1303B;
 }
 
@@ -9673,7 +9683,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/banner1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -9692,8 +9702,9 @@ header .div_hover:hover {
 #bordure {
   position: relative;
   bottom: 1.5%;
-  height: 2%;
-  background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/bottom_decoration_img.png);
+  width: 100%;
+  height: 50vh;
+  background-image: url(../img/bottom_decoration_img.png);
   background-repeat: repeat;
 }
 

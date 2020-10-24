@@ -1,5 +1,5 @@
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/banner1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),url(../img/banner1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,8 +16,9 @@ header{
 #bordure{
     position: relative;
     bottom: 1.5%;
-    height: 2%;
-    background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/bottom_decoration_img.png);
+    width: 100%;
+    height: 50vh;
+    background-image: url(../img/bottom_decoration_img.png);
     background-repeat: repeat;
 }
 
