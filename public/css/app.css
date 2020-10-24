@@ -9649,6 +9649,19 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+#footer_bg {
+  background-image: url(../img/footer_background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#ligne_rouge {
+  width: 100vw;
+  height: 15vh;
+  background-color: #B1303B;
+}
+
 .span_h2 {
   color: #B1303B;
   font-size: 1.5em;
