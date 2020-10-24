@@ -1,9 +1,16 @@
+body{
+    background-image: url('../img/main_bg.jpg');
+    background-repeat: repeat;
+}
+
 .span_h2{
     color: $red_chef_txt;
     font-size: 1.5em;
 }
 
-body{
-    background-image: url('../img/main_bg.jpg');
-    background-repeat: repeat;
+h2{
+    background-image: url(../img/decoration_line.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    font-family: courgette;
 }

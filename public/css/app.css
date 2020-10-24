@@ -9649,6 +9649,11 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+@font-face {
+  font-family: courgette;
+  src: url(../../public/font/Courgette-Regular.ttf);
+}
+
 footer h5 {
   font-size: 1.5em;
 }
@@ -9675,14 +9680,21 @@ footer h5 {
   background-color: #B1303B;
 }
 
+body {
+  background-image: url("../img/main_bg.jpg");
+  background-repeat: repeat;
+}
+
 .span_h2 {
   color: #B1303B;
   font-size: 1.5em;
 }
 
-body {
-  background-image: url("../img/main_bg.jpg");
-  background-repeat: repeat;
+h2 {
+  background-image: url(../img/decoration_line.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  font-family: courgette;
 }
 
 header {
@@ -9695,7 +9707,7 @@ header {
 
 header p {
   font-size: 2.7em;
-  font-style: italic;
+  font-family: courgette;
 }
 
 header .div_hover:hover {
@@ -9743,12 +9755,6 @@ header .div_hover:hover {
 #story_menu #div_story {
   background-color: white;
   border: solid 0.5px #c9c9c9;
-}
-
-h2 {
-  background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/decoration_line.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
 }
 
 #story_txt p {
@@ -9816,7 +9822,8 @@ h2 {
 }
 
 #section_chef {
-  background-image: url(/home/martin/Bureau/coding_school/site_du_chef/site_du_chef/public/img/team_background.jpg);
+  background-image: url(../img/team_background.jpg);
+  background-repeat: no-repeat;
   color: white;
 }
 
