@@ -123,17 +123,25 @@
             <!-- Our story -->
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <div class="row">
-                    <div class="col-3 d-flex justify-content-start align-items-start">
+                    <!-- Coin gauche -->
+                    <div class="col-3 d-flex justify-content-start align-items-start coin_superieur">
                         <img src="./public/img/box-left-top.png" alt="">
                     </div>
+                    <!-- Coin gauche -->
+
+                    <!-- Story -->
                     <div class="col-6 mt-5 d-flex justify-content-center align-items-center flex-column" id="story_txt">
                         <h2 class="text-center mb-0 pb-3 w-100"><span class="text-uppercase span_h2">Our</span> Story</h2>
 
                         <p class="text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam blanditiis autem ipsa dolorum officia inventore excepturi. Hic vel impedit dolorem in nulla molestiae libero reprehenderit repellendus pariatur accusamus voluptates nihil assumenda doloremque a, fugit odit eveniet modi, optio ullam! Deleniti amet voluptatibus sequi reiciendis cumque temporibus corporis rem numquam est.</p>
                     </div>
-                    <div class="col-3 d-flex justify-content-end align-items-start">
+                    <!-- Story -->
+
+                    <!-- Coin droit -->
+                    <div class="col-3 d-flex justify-content-end align-items-start coin_superieur">
                         <img src="./public/img/box-right-top.png" alt="">
                     </div>
+                    <!-- Coin droit -->
                 </div>
             </div>
             <!-- Our story -->
@@ -781,13 +789,13 @@
 
             <!-- Fin menu -->
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 coin_superieur">
                     <img src="./public/img/box-bottom-left.png" alt="">
                 </div>
-                <div class="col-4 text-center my-5">
+                <div class="col-4 text-center my-5" id="story_txt">
                     <img class="w-100" src="./public/img/decoration_line.png" alt="">
                 </div>
-                <div class="col-4 d-flex justify-content-end">
+                <div class="col-4 d-flex justify-content-end coin_superieur">
                     <img src="./public/img/box-bottom_right.png" alt="">
                 </div>
             </div>
@@ -833,84 +841,86 @@
     <!-- Section Book & Blog -->
     <section id="section_book" class="p-5">
         <div class="mx-5 mx-sm-0 bg-white" id="div_border">
-            <!-- Coté + titre -->
-            <div class="row">
-                <div class="col-3 d-flex justify-content-start align-items-start">
-                    <img src="./public/img/box-left-top-grey.png" alt="">
-                </div>
-
-                <div class="col-6 my-5">
-                    <h2 class="text-center pb-3"><span class="text-uppercase span_h2">Book</span> Your Table</h2>
-                </div>
-
-                <div class="col-3 d-flex justify-content-end align-items-start">
-                    <img src="./public/img/box-right-top-grey.png" alt="">
-                </div>
-            </div>
-            <!-- Coté + titre -->
-
-            <!-- Forms -->
-            <div class="container p-5" id="form_book">
-
-                <!-- Text form -->
-                <p class="text-center text-white">For any query please call us at: <span class="fa-2x">+91-1234567890</span></p>
-
-                <!-- Form -->
-                <form class="d-flex flex-column justify-content-center align-items-center">
-                    <div class="row div_form_w">
-                        
-                        <!-- Form partie gauche -->
-                        <div class="col-lg-6 col-md-6 col-sm-12 w-100 text-right">
-                            <input type="text" class="form-control form_radius" placeholder="Enter full Name">
-                            <input type="text" class="form-control form_radius" placeholder="Phone Number">
-                            <input type="text" class="form-control form_radius" placeholder="Date">
-                            <select id="inputState" class="form-control form_radius" aria-placeholder="Occasion">
-                                <option selected>Occasion</option>
-                                <option>Christmas</option>
-                                <option>Funeral</option>
-                                <option>Bachelor Party</option>
-                                <option>Family Event</option>
-                            </select>
-                        </div>
-                        <!-- Form partie gauche -->
-
-                        <!-- Form partie droite -->
-                        <div class="col-lg-6 col-md-6 col-sm-12 w-100">
-                            <input type="text" class="form-control form_radius" placeholder="Enter Id">
-                            <select id="inputState" class="form-control form_radius">
-                                <option selected>No Of Person</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                <option>6</option>
-                            </select>
-                            <input type="text" class="form-control form_radius" placeholder="Time">
-                            <select id="inputState" class="form-control form_radius">
-                                <option selected>Cuisine</option>
-                                <option>Indian</option>
-                                <option>Chinese</option>
-                                <option>French</option>
-                                <option>Vietnamese</option>
-                                <option>Libyan</option>
-                            </select>
-                        </div>
-                        <!-- Form partie droite -->
+            <!-- Section Book -->
+                <!-- Coté + titre -->
+                <div class="row text-center">
+                    <div class="col-3 d-flex justify-content-start align-items-start coin_superieur">
+                        <img src="./public/img/box-left-top-grey.png" alt="">
                     </div>
 
-                    <button class="text-uppercase mt-5 btn text-white bg_btn rounded-pill mx-2 py-3 px-4 text-uppercase">Book now</button>
+                    <div class="col-6 my-5 blog_h2" id="story_txt">
+                        <h2 class="text-center pb-3"><span class="text-uppercase span_h2">Book</span> Your Table</h2>
+                    </div>
 
-                  </form>
-            </div>
-            <!-- Forms -->
+                    <div class="col-3 d-flex justify-content-end align-items-start coin_superieur">
+                        <img src="./public/img/box-right-top-grey.png" alt="">
+                    </div>
+                </div>
+                <!-- Coté + titre -->
+
+                <!-- Forms -->
+                <div class="container p-5" id="form_book">
+
+                    <!-- Text form -->
+                    <p class="text-center text-white">For any query please call us at: <span class="fa-2x">+91-1234567890</span></p>
+
+                    <!-- Form -->
+                    <form class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="row div_form_w">
+                            
+                            <!-- Form partie gauche -->
+                            <div class="col-lg-6 col-md-6 col-sm-12 w-100 text-right">
+                                <input type="text" class="form-control form_radius" placeholder="Enter full Name">
+                                <input type="text" class="form-control form_radius" placeholder="Phone Number">
+                                <input type="text" class="form-control form_radius" placeholder="Date">
+                                <select id="inputState" class="form-control form_radius" aria-placeholder="Occasion">
+                                    <option selected>Occasion</option>
+                                    <option>Christmas</option>
+                                    <option>Funeral</option>
+                                    <option>Bachelor Party</option>
+                                    <option>Family Event</option>
+                                </select>
+                            </div>
+                            <!-- Form partie gauche -->
+
+                            <!-- Form partie droite -->
+                            <div class="col-lg-6 col-md-6 col-sm-12 w-100">
+                                <input type="text" class="form-control form_radius" placeholder="Enter Id">
+                                <select id="inputState" class="form-control form_radius">
+                                    <option selected>No Of Person</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                </select>
+                                <input type="text" class="form-control form_radius" placeholder="Time">
+                                <select id="inputState" class="form-control form_radius">
+                                    <option selected>Cuisine</option>
+                                    <option>Indian</option>
+                                    <option>Chinese</option>
+                                    <option>French</option>
+                                    <option>Vietnamese</option>
+                                    <option>Libyan</option>
+                                </select>
+                            </div>
+                            <!-- Form partie droite -->
+                        </div>
+
+                        <button class="text-uppercase mt-5 btn text-white bg_btn rounded-pill mx-2 py-3 px-4 text-uppercase">Book now</button>
+
+                    </form>
+                </div>
+                <!-- Forms -->
+            <!-- Section Book -->
 
             <!-- Our blog -->
             <div class="my-5">
                 <h2 class="pb-3 text-center"><span class="text-uppercase span_h2">Our</span> Blog</h2>
 
                 <!-- Partie card -->
-                <div class="container-fluid px-5 mt-5">
+                <div class="container-fluid px-5 mt-5 card_div">
                     <div class="row px-5">
                         <!-- Card 1 -->
                         <div class="col-lg-6 col-sm-12 pl-5 d-flex flex-column align-items-end card_blog">
@@ -927,7 +937,7 @@
                                 <!-- Div image -->
 
                                 <!-- Texte -->
-                                <div class="mt-4 p-4">
+                                <div class="mt-4 p-4 padding_blog">
                                     <p class="font-weight-bold p_blog">Lorem, Ipsum</p>
                                     <p class="font-weight-lighter">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 </div>
@@ -951,7 +961,7 @@
                                 <!-- Div image -->
 
                                 <!-- Texte -->
-                                <div class="mt-4 p-4">
+                                <div class="mt-4 p-4 padding_blog">
                                     <p class="font-weight-bold p_blog">Lorem, Ipsum</p>
                                     <p class="font-weight-lighter">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 </div>
@@ -966,14 +976,14 @@
             <!-- Our blog -->
 
             <!-- Coté bas + btn -->
-            <div class="row">
-                <div class="col-3 d-flex justify-content-start align-items-center">
+            <div class="row blog_btn">
+                <div class="col-3 d-flex justify-content-start align-items-center coin_superieur">
                     <img src="./public/img/box-bottom-left-grey.png" alt="">
                 </div>
-                <div class="col-6 text-center">
+                <div class="col-6 text-center blog_btn" id="story_txt">
                     <button class="btn text-white bg_btn rounded-pill mx-2 py-3 px-4 text-uppercase">Know More</button>
                 </div>
-                <div class="col-3 d-flex justify-content-end align-items-center">
+                <div class="col-3 d-flex justify-content-end align-items-center coin_superieur">
                     <img src="./public/img/box-bottom_right-grey.png" alt="">
                 </div>
             </div>
@@ -988,9 +998,9 @@
             <h2 class="text-white text-center pt-5 pb-3"><span class="text-uppercase span_h2">Client</span> Testimonials</h2>
         </div>
 
-        <div class="row mx-5 px-5 pb-5 pt-5 align-items-center justify-content-center">
+        <div class="row mx-5 px-5 pb-5 pt-5 align-items-center justify-content-center div_testi_totale">
             <!-- Card 1 -->
-            <div class="col-lg-6 col-sm-12 row pl-md-0">
+            <div class="col-lg-6 col-sm-12 row pl-md-0 padding_testi">
 
                 <!-- Image -->
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center div_img_testi">
@@ -1012,7 +1022,7 @@
 
             <!-- Card 2 -->
             <div class="col-lg-6 col-sm-12 row">
-                <div class="col-8 col-md-8 col-sm-12">
+                <div class="col-lg-8 col-md-8 col-sm-12">
 
                     <!-- Texte -->
                     <div class="div_testi p-2">

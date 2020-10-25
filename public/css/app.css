@@ -9694,6 +9694,9 @@ footer h5 {
     margin: 0 !important;
     padding: 8% 2% !important;
   }
+  #div_totale_footer div {
+    margin-bottom: 3%;
+  }
   .insta_div {
     padding: 0 !important;
     flex-wrap: wrap !important;
@@ -9801,7 +9804,17 @@ header .div_hover:hover {
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
   #story_menu {
-    padding: 2% 0% !important;
+    padding: 5% 0% !important;
+  }
+  #div_story {
+    margin: 0% !important;
+  }
+  .coin_superieur {
+    display: none !important;
+  }
+  #story_txt {
+    max-width: max-content !important;
+    flex: none !important;
   }
   #story_txt p {
     width: 100%;
@@ -9896,7 +9909,17 @@ header .div_hover:hover {
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
   .div_menu {
-    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: max-content;
+    justify-content: center;
+    align-items: center;
+  }
+  .div_menu div {
+    width: 85%;
+    margin: 0% !important;
+    padding: 0%;
+    padding-top: 2%;
+    text-align: center;
   }
 }
 
@@ -9931,6 +9954,15 @@ header .div_hover:hover {
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   #form_book {
     width: 90%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  #div_border {
+    margin: 3% !important;
+  }
+  #form_book {
+    padding: 5% !important;
   }
 }
 
@@ -9984,6 +10016,36 @@ header .div_hover:hover {
   #section_book {
     padding: 0 !important;
   }
+  .blog_h2 {
+    margin-left: 4%;
+  }
+  #form_book {
+    margin: 1% !important;
+    width: 98%;
+  }
+  .div_form_w {
+    margin: 0% !important;
+  }
+  .card_div {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .card_blog {
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    padding-left: 3% !important;
+  }
+  .card_blog div {
+    width: 100% !important;
+  }
+  .blog_btn {
+    justify-content: center;
+    padding-bottom: 10% !important;
+  }
+  .padding_blog {
+    padding-top: 30% !important;
+  }
 }
 
 #section_testi {
@@ -10009,6 +10071,21 @@ header .div_hover:hover {
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   .div_img_testi {
     padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  .div_img_testi {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 15%;
+  }
+  .div_testi_totale {
+    margin: 0% !important;
+    padding: 0% !important;
+  }
+  .padding_testi {
+    padding-bottom: 5%;
   }
 }
 

@@ -24,10 +24,20 @@
 
 @media screen and (min-width: 320px) and (max-width: 599px){
     #story_menu{
-        padding: 2% 0% !important;
+        padding: 5% 0% !important;
     }
     
+    #div_story{
+        margin: 0% !important;
+    }
+
+    .coin_superieur{
+        display: none !important;
+    }
+
     #story_txt{
+        max-width: max-content !important;
+        flex: none !important;
         p{
             width: 100%;
         }
@@ -130,7 +140,17 @@
 
 @media screen and (min-width: 320px) and (max-width: 599px){
     .div_menu{
-        flex-wrap: wrap;
+        flex-direction: column;
+        max-width: max-content;
+        justify-content: center;
+        align-items: center;
+        div{
+            width: 85%;
+            margin: 0% !important;
+            padding: 0%;
+            padding-top: 2%;
+            text-align: center;
+        }
     }
 }
 // Partie menu
@@ -140,7 +160,6 @@
 // Section Chef
 #section_chef{
     background-image: url(../img/team_background.jpg);
-    // background-repeat: no-repeat;
     color: white;
 }
 // Section Chef
@@ -172,6 +191,16 @@
 @media screen and (min-width: 600px) and (max-width: 1023px){
     #form_book{
         width: 90%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px){
+    #div_border{
+        margin: 3% !important;
+    }
+
+    #form_book{
+        padding: 5% !important;
     }
 }
 // Section Book
@@ -223,9 +252,46 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px){
-     #section_book{
-         padding: 0 !important;
-     }
+    #section_book{
+        padding: 0 !important;
+    }
+
+     .blog_h2{
+        margin-left: 4%;
+    }
+
+    #form_book{
+        margin: 1% !important;
+        width: 98%;
+    }
+
+    .div_form_w{
+        margin: 0% !important;
+    }
+
+    .card_div{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .card_blog{
+        display: flex;
+        align-items: center !important;
+        justify-content: center;
+        padding-left: 3% !important;
+        div{
+            width: 100% !important;
+        }
+    }
+
+    .blog_btn{
+        justify-content: center;
+        padding-bottom: 10% !important;
+    }
+
+    .padding_blog{
+        padding-top: 30% !important;
+    }
 }
 // Section Blog
 
@@ -253,6 +319,23 @@
 @media screen and (min-width: 600px) and (max-width: 1023px){
     .div_img_testi{
         padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px){
+    .div_img_testi{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 15%;
+    }
+
+    .div_testi_totale{
+        margin: 0% !important;
+        padding: 0% !important;
+    }
+
+    .padding_testi{
+        padding-bottom: 5%
     }
 }
 // Section Testimonial
