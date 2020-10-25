@@ -217,9 +217,8 @@
 }
 
 .span_blog_card{
-    padding-top: 6%;
     border-radius: 15px;
-    background-color: $red_chef_txt
+    background-color: $red_chef_txt;
 }
 
 #img_blog_div2{
@@ -271,6 +270,14 @@
 
     .card_div{
         margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    #img_blog_div{
+        padding: 0 !important;
+    }
+
+    #img_blog_div2{
         padding: 0 !important;
     }
 
