@@ -9725,6 +9725,10 @@ h2 {
   font-family: courgette;
 }
 
+p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner1.jpg);
   background-repeat: no-repeat;
@@ -9797,6 +9801,10 @@ header .div_hover:hover {
   }
   header {
     height: auto !important;
+    padding-bottom: 10%;
+  }
+  #btn_carousel {
+    display: none !important;
   }
 }
 
