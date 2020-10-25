@@ -106,10 +106,19 @@
 
 .span_menu{
     font-size: 25px;
+    font-family: courgette;
+    color: black;
 }
 
 .div_menu{
     border-left: 1px solid rgba(73, 73, 73, 0.125);
+}
+
+#accordion{
+    display: none;
+    .btn{
+        color: $red_chef_txt;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px){
@@ -144,6 +153,9 @@
         max-width: max-content;
         justify-content: center;
         align-items: center;
+        margin: 0% !important;
+        padding: 0% !important;
+        border-left: none;
         div{
             width: 85%;
             margin: 0% !important;
@@ -151,6 +163,21 @@
             padding-top: 2%;
             text-align: center;
         }
+    }
+
+    .card-body{
+        padding: 0% !important;
+    }
+
+    #div_menu_total{
+        display: none !important;
+    }
+
+    #accordion{
+        display: initial !important;
+    }
+    .span_menu{
+        font-size: 35px;
     }
 }
 // Partie menu
@@ -201,6 +228,15 @@
 
     #form_book{
         padding: 5% !important;
+    }
+
+    #div_book_mr{
+        margin: 0% !important;
+        padding: 0% !important;
+    }
+
+    #story_txt{
+        padding: 0% !important;
     }
 }
 // Section Book

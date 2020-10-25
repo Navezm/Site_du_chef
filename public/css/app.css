@@ -9786,6 +9786,12 @@ header .div_hover:hover {
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  #carouselExampleIndicators {
+    display: none;
+  }
+}
+
 #story_menu #div_story {
   background-color: white;
   border: solid 0.5px #c9c9c9;
@@ -9881,10 +9887,20 @@ header .div_hover:hover {
 
 .span_menu {
   font-size: 25px;
+  font-family: courgette;
+  color: black;
 }
 
 .div_menu {
   border-left: 1px solid rgba(73, 73, 73, 0.125);
+}
+
+#accordion {
+  display: none;
+}
+
+#accordion .btn {
+  color: #B1303B;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
@@ -9913,6 +9929,9 @@ header .div_hover:hover {
     max-width: max-content;
     justify-content: center;
     align-items: center;
+    margin: 0% !important;
+    padding: 0% !important;
+    border-left: none;
   }
   .div_menu div {
     width: 85%;
@@ -9920,6 +9939,18 @@ header .div_hover:hover {
     padding: 0%;
     padding-top: 2%;
     text-align: center;
+  }
+  .card-body {
+    padding: 0% !important;
+  }
+  #div_menu_total {
+    display: none !important;
+  }
+  #accordion {
+    display: initial !important;
+  }
+  .span_menu {
+    font-size: 35px;
   }
 }
 
@@ -9963,6 +9994,13 @@ header .div_hover:hover {
   }
   #form_book {
     padding: 5% !important;
+  }
+  #div_book_mr {
+    margin: 0% !important;
+    padding: 0% !important;
+  }
+  #story_txt {
+    padding: 0% !important;
   }
 }
 
