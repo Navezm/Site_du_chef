@@ -9781,6 +9781,9 @@ header .div_hover:hover {
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
+  #story_menu {
+    padding: 2% 0% !important;
+  }
   #story_txt p {
     width: 100%;
   }
@@ -9872,6 +9875,12 @@ header .div_hover:hover {
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  .div_menu {
+    flex-wrap: wrap;
+  }
+}
+
 #section_chef {
   background-image: url(../img/team_background.jpg);
   color: white;
@@ -9949,6 +9958,12 @@ header .div_hover:hover {
   }
   .card_blog div {
     width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  #section_book {
+    padding: 0 !important;
   }
 }
 
