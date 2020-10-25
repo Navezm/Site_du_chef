@@ -28,6 +28,28 @@ footer{
 
 @media screen and (min-width: 600px) and (max-width: 1023px){
     #bordure_footer{
-        height: 1.5%;
+        height: 1%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px){
+    #bordure_footer{
+        height: 0.8%;
+    }
+
+    #div_totale_footer{
+        margin: 0 !important;
+        padding: 8% 2% !important;
+    }
+
+    .insta_div{
+        padding: 0 !important;
+        flex-wrap: wrap !important;
+    }
+
+    .img_insta{
+        width: 40% !important;
+        margin: 0% !important;
+        padding: 3% !important;
     }
 }
