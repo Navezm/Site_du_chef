@@ -12,6 +12,23 @@ header{
     .div_hover:hover{
         background-color: $red_chef;
     }
+    ol{
+        li{
+            height: 20px !important;
+            width: 20px !important;
+            border-radius: 100%;
+            margin-left: 1% !important;
+            margin-right: 1% !important;
+        }
+        .active{
+            height: 6px !important;
+            width: 6px !important;
+            border: solid 8px transparent;
+            box-shadow: 0 0 0 3px white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
 }
 
 #bordure{
