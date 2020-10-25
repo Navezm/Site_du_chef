@@ -50,3 +50,15 @@ header{
 .bg_btn{
     background-color: $red_chef_txt;
 }
+
+@media screen and (min-width: 600px) and (max-width: 1023px){
+    header{
+        div{
+            
+        }
+    }
+
+    #navbarNavAltMarkup{
+        justify-content: center;
+    }
+}

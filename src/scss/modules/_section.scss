@@ -15,6 +15,19 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px){
+    #story_txt{
+        p{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px){
+    #story_txt{
+        p{
+            width: 100%;
+        }
+    }
 }
 // Partie story
 
@@ -84,6 +97,32 @@
 .div_menu{
     border-left: 1px solid rgba(73, 73, 73, 0.125);
 }
+
+@media screen and (min-width: 600px) and (max-width: 1023px){
+    #div_menu_total{
+        width: 100%;
+    }
+
+    #click{
+        div{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    .div_menu{
+        border-left: none;
+    }
+
+    #div_slide{
+        width: 100%;
+        margin-left: 3%;
+    }
+
+    #list-home{
+        text-align: center;
+    }
+}
 // Partie menu
 
 // Section Story & Menu
@@ -91,7 +130,7 @@
 // Section Chef
 #section_chef{
     background-image: url(../img/team_background.jpg);
-    background-repeat: no-repeat;
+    // background-repeat: no-repeat;
     color: white;
 }
 // Section Chef
@@ -119,6 +158,12 @@
     margin: 5% 0;
     padding: 3% 5%;
 }
+
+@media screen and (min-width: 600px) and (max-width: 1023px){
+    #form_book{
+        width: 90%;
+    }
+}
 // Section Book
 
 // Section Blog
@@ -135,7 +180,6 @@
 .span_blog_card{
     padding-top: 6%;
     border-radius: 15px;
-    width: 80%;
     background-color: $red_chef_txt
 }
 
@@ -154,6 +198,18 @@
 
 .p_blog{
     font-size: 1.5em;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px){
+    .card_blog{
+        display: flex;
+        align-items: center !important;
+        justify-content: center;
+        padding-left: 3% !important;
+        div{
+            width: 100% !important;
+        }
+    }
 }
 // Section Blog
 
@@ -176,6 +232,12 @@
 
 .img_testi{
     border: 5px white solid;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px){
+    .div_img_testi{
+        padding-left: 0;
+    }
 }
 // Section Testimonial
 

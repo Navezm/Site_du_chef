@@ -25,3 +25,9 @@ footer{
     height: 10vh;
     background-color: $red_chef_txt;
 }
+
+@media screen and (min-width: 600px) and (max-width: 1023px){
+    #bordure_footer{
+        height: 1.5%;
+    }
+}
