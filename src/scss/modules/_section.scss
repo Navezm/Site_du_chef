@@ -120,9 +120,11 @@
 
 #accordion{
     display: none;
-    .btn{
-        color: $red_chef_txt;
-    }
+}
+
+.btn:focus{
+    color: $red_chef_txt;
+    box-shadow: none;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px){

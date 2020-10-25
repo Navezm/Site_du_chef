@@ -9933,8 +9933,9 @@ header .div_hover:hover {
   display: none;
 }
 
-#accordion .btn {
+.btn:focus {
   color: #B1303B;
+  box-shadow: none;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
