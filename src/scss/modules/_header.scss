@@ -3,6 +3,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: fit-content;
     height: 90vh;
     p{
         font-size: 2.7em;
@@ -51,14 +52,42 @@ header{
     background-color: $red_chef_txt;
 }
 
+#navbar_responsive{
+    display: none;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1023px){
     #navbarNavAltMarkup{
         justify-content: center;
+    }
+
+    #container_nav{
+        display: none !important;
+    }
+
+    #navbar_responsive{
+        display: initial !important;
+    }
+
+    header{
+        height: auto !important;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px){
     #carouselExampleIndicators{
         display: none;
+    }
+
+    #container_nav{
+        display: none !important;
+    }
+
+    #navbar_responsive{
+        display: initial !important;
+    }
+
+    header{
+        height: auto !important;
     }
 }   

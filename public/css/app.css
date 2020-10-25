@@ -9730,6 +9730,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: fit-content;
   height: 90vh;
 }
 
@@ -9780,15 +9781,37 @@ header .div_hover:hover {
   background-color: #B1303B;
 }
 
+#navbar_responsive {
+  display: none;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   #navbarNavAltMarkup {
     justify-content: center;
+  }
+  #container_nav {
+    display: none !important;
+  }
+  #navbar_responsive {
+    display: initial !important;
+  }
+  header {
+    height: auto !important;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
   #carouselExampleIndicators {
     display: none;
+  }
+  #container_nav {
+    display: none !important;
+  }
+  #navbar_responsive {
+    display: initial !important;
+  }
+  header {
+    height: auto !important;
   }
 }
 
@@ -9800,6 +9823,10 @@ header .div_hover:hover {
 #story_txt p {
   line-height: 2;
   width: 80%;
+}
+
+#story_txt_responsive {
+  display: none !important;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
@@ -9819,11 +9846,10 @@ header .div_hover:hover {
     display: none !important;
   }
   #story_txt {
-    max-width: max-content !important;
-    flex: none !important;
+    display: none !important;
   }
-  #story_txt p {
-    width: 100%;
+  #story_txt_responsive {
+    display: initial !important;
   }
 }
 
@@ -9907,6 +9933,9 @@ header .div_hover:hover {
   #div_menu_total {
     width: 100%;
   }
+  #click {
+    border-bottom: 1px solid rgba(73, 73, 73, 0.125) !important;
+  }
   #click div {
     display: flex;
     flex-direction: row;
@@ -9920,6 +9949,17 @@ header .div_hover:hover {
   }
   #list-home {
     text-align: center;
+  }
+  .list-group-item {
+    border: none;
+  }
+  .list-group-item.active {
+    border-bottom: none;
+    border-right: none;
+  }
+  #click {
+    padding-left: 0% !important;
+    margin-left: 15px !important;
   }
 }
 
@@ -9997,9 +10037,6 @@ header .div_hover:hover {
   }
   #div_book_mr {
     margin: 0% !important;
-    padding: 0% !important;
-  }
-  #story_txt {
     padding: 0% !important;
   }
 }
