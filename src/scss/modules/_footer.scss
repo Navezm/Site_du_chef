@@ -48,6 +48,11 @@ footer{
     .insta_div{
         padding: 0 !important;
         flex-wrap: wrap !important;
+        text-align: center;
+        a{
+            width: 50% !important;
+            height: 50% !important;
+        }
     }
 
     .img_insta{

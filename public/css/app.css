@@ -9700,6 +9700,11 @@ footer h5 {
   .insta_div {
     padding: 0 !important;
     flex-wrap: wrap !important;
+    text-align: center;
+  }
+  .insta_div a {
+    width: 50% !important;
+    height: 50% !important;
   }
   .img_insta {
     width: 40% !important;
@@ -10150,7 +10155,7 @@ header ol .active {
     padding-bottom: 10% !important;
   }
   .padding_blog {
-    padding-top: 30% !important;
+    padding-top: 35% !important;
   }
 }
 
@@ -10178,6 +10183,9 @@ header ol .active {
   .div_img_testi {
     padding-left: 0;
   }
+  .padding_testi {
+    margin-bottom: 5%;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
@@ -10185,6 +10193,8 @@ header ol .active {
     padding-left: 0;
     padding-right: 0;
     padding-top: 15%;
+    width: 75% !important;
+    margin-bottom: 10%;
   }
   .div_testi_totale {
     margin: 0% !important;
